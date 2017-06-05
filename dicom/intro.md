@@ -1,0 +1,19 @@
+# Introduction to DICOM
+## Chapter 1: Introduction
+DICOM is a software integration standard that is used in Medical Imaging. All modern medical imaging systems (AKA Imaging Modalities) Equipment like X-Rays, Ultrasounds, CT (Computed Tomography), and MRI (Magnetic Resonance Imaging) support DICOM and use it extensively.
+
+In this tutorial I present a high level review of DICOM. We will look at DICOM from the user point of view trying to avoid the fine details when possible.
+Readers familiar with the DICOM standard and its technical vocabulary will surely recognize these terms though I will try to avoid them when there exists a common replacement. The reason for this is because the DICOM standard’s vocabulary is very different from the equivalent terms used in everyday’s computing and I try here to explain DICOM to people with common background in modern software and computing but none or very little background in Medical Imaging and Healthcare IT. 
+
+The core of DICOM is a file format and a networking protocol. 
+DICOM File Format – All Medical Images are saved in DICOM format. Medical Imaging Equipment creates DICOM files. Doctors use DICOM Viewers, computer software applications that can display DICOM images, to diagnose the findings in the images. DICOM files contain more than just images. Every DICOM file holds patient information (name, ID, sex and birth date), important acquisition data (e.g., type of equipment used and its settings), and context of the imaging study that is used to link the image to the medical treatment it was part of. 
+DICOM Network Protocol – All medical imaging applications that are connected to the hospital network use the DICOM protocol to exchange information, mainly DICOM images but also patient and procedure information. The DICOM network protocol is used to search for imaging studies in the archive and restore imaging studies to the workstation in order to display it. There are also more advanced network commands that are used to control and follow the treatment, schedule procedures, report statuses and share the workload between doctors and imaging devices.
+Just like every web browser can display JPEG pictures stored on far away servers, medical systems that use DICOM can send and receive DICOM images and search for them in other medical systems. 
+
+DICOM is first of all an Interface Definition. It’s success relies on the ability to integrate medical systems manufactured by many different vendors. 
+
+The reality today in medical imaging is that when installing new imaging equipment in the hospital and plugging it into the network, it can immediately query the medical imaging archive (PACS), retrieve images that were created by other systems and display them. Additionally, if the new system produces images, they can be reviewed on other vendor’s systems that are already members of the network. All this is done without any changes or modifications to any of the involved system software. 
+
+Some of you would rightfully say that this is exactly what you would expect from any new laptop or printer you bring home. However, for the medical community, this was almost impossible before DICOM. Integrating medical equipment of different vendors used to be a big issue. Even today with all the advancement that IT made, very large budgets are spent over interfaces and integration in every large project, not only in medicine. 
+
+The ability of modern imaging equipment to seamlessly collaborate and integrate together in a multi-vendor environment is the most notable achievement of DICOM that led to a great advancement in medical imaging.
