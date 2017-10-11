@@ -58,11 +58,11 @@ Java中并没有对集合（java.util.collection）类型实现任何的简单�
 
 然后我们把调用的方式修改为：
 
-	Set<String> s = (Set<String>) initCollection(new HashSet<>(), "apple", "orange", "banana");
+	Set<String> s = (Set<String>) MyCollectionUtils.initCollection(new HashSet<>(), "apple", "orange", "banana");
 
 或
 
-	List<Integer> fibonacci = (List<Integer>) initCollection(new ArrayList<>(),
+	List<Integer> fibonacci = (List<Integer>) MyCollectionUtils.initCollection(new ArrayList<>(),
 				1, 1, 2, 3, 5, 8, 13, 21);
 
 OK.
