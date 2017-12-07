@@ -1,4 +1,4 @@
-原链接: [http://python.jobbole.com/85056/]
+[原链接][http://python.jobbole.com/85056/]
 
 
 # 函数
@@ -424,4 +424,4 @@ Python 2.4 通过在函数定义前添加一个装饰器名和 @ 符号，来实
 
 如果你一直看到了最后一个实例，祝贺你，你已经理解了装饰器！你可以用新掌握的知识做更多的事了。
 
-你也许考虑需要进一步的学习：Bruce Eckel 有一篇很赞的关于装饰器文章[http://www.artima.com/weblogs/viewpost.jsp?thread=240808]，他使用了对象而非函数来实现了装饰器。你会发现 OOP 代码比纯函数版的可读性更好。Bruce 还有一篇后续文章 providing arguments to decorators[http://www.artima.com/weblogs/viewpost.jsp?thread=240845]，用对象实现装饰器也许比用函数实现更简单。最后，你可以去研究一下内建包装函数 functools[http://docs.python.org/dev/library/functools.html]，它是一个在装饰器中用来修改替换函数签名的装饰器，使得这些函数更像是被装饰的函数。
+你也许考虑需要进一步的学习：[Bruce Eckel 有一篇很赞的关于装饰器文章][http://www.artima.com/weblogs/viewpost.jsp?thread=240808]，他使用了对象而非函数来实现了装饰器。你会发现 OOP 代码比纯函数版的可读性更好。Bruce 还有一篇后续文章 [providing arguments to decorators][http://www.artima.com/weblogs/viewpost.jsp?thread=240845]，用对象实现装饰器也许比用函数实现更简单。最后，你可以去研究一下内建包装函数 [functools][http://docs.python.org/dev/library/functools.html]，它是一个在装饰器中用来修改替换函数签名的装饰器，使得这些函数更像是被装饰的函数。
