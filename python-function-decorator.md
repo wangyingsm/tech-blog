@@ -6,6 +6,7 @@
 在 Python 中，使用关键字 def 和一个函数名以及一个可选的参数列表来定义函数。函数使用 return 关键字来返回值。定义和使用一个最简单的函数例子：
 
 `Python`
+
     >>> def foo():
     ...     return 1
     >>> foo()
@@ -18,6 +19,7 @@
 在 Python 函数中会创建一个新的作用域。Python 高手也称函数有自己的命名空间。也就是说，当在函数体中遇到变量时，Python 会首先在该函数的命名空间中寻找变量名。Python 有几个函数用来查看命名空间。下面来写一个简单函数来看看局部变量和全局变量的区别。
 
 `Python`
+
     >>> a_string = "This is a global variable"
     >>> def foo():
     ...     print locals()
