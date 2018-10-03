@@ -11,3 +11,7 @@
 - [抽象工厂模式](abstract-factory.ipynb)
 
 [abstract-factory](https://github.com/iluwatar/java-design-patterns/tree/master/abstract-factory)
+
+- [非循环依赖的访问者模式](acyclic-visitor.ipynb)
+
+[acyclic-visitor](https://github.com/iluwatar/java-design-patterns/tree/master/acyclic-visitor)
