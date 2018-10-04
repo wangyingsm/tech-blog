@@ -19,3 +19,7 @@
 - [适配器模式](adapter.ipynb)
 
 > [来源：adapter](https://github.com/iluwatar/java-design-patterns/tree/master/adapter)
+
+- [大使模式](ambassador.ipynb)
+
+> [来源：ambassador](https://github.com/iluwatar/java-design-patterns/tree/master/ambassador)
