@@ -287,7 +287,7 @@ func main() {
 }
 ```
 
-### <a name="ShortVariableDeclarationsFieldValues></a>不能使用短变量声明给结构体属性赋值
+### <a name="ShortVariableDeclarationsFieldValues"></a> 不能使用短变量声明给结构体属性赋值
 
 > 级别: 菜鸟
 
